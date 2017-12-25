@@ -4,6 +4,7 @@
   "description": "Send SMS messages using the Twilio API",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +13,10 @@
   },
   "author": "Steve Senkus",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/ssenkus/nodejs-twilio-send-prank-sms#readme"
+  "homepage": "https://bitbucket.org/ssenkus/nodejs-twilio-send-prank-sms#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "prompt": "^1.0.0",
+    "twilio": "^3.11.0"
+  }
 }
